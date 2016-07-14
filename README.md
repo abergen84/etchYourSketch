@@ -14,9 +14,8 @@ or straight up awful. The choice is yours.
 
 ##Application Stack
 
-Using React in combination with Backbone and MongoDB for full-stack app development.
+Using React in combination with Backbone for a quick weekend project.
 
 - React for the user experience/view
-- Backbone to handle the models and collection, in addition to controller
-- MongoDB to handle the data storage and retrieval
+- Backbone to handle the trigger system.
 
