@@ -41,7 +41,9 @@
 		}
 	}
 	#etchContainer {
-		font-size: 0;
+		// font-size: 0;
+		display: flex;
+		flex-wrap: wrap;
 		border: 40px solid red;
 		border-radius: 10px;
 		// display: flex;
@@ -49,10 +51,10 @@
 		margin: 0 auto;
 		.box {
 			width: 2%;
-			height: 15px;
-			display: inline-block;
+			height: 10px;
+			// display: inline-block;
 			background: #fff;
-			border: 1px solid lightgray;
+			// border: 1px solid lightgray;
 			margin: 0;
 		}
 
