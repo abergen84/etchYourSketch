@@ -1,38 +1,22 @@
-#TIY Starter Kit
+#etch Your Sketch
 
-Lightweight scaffolding and build tools to quickly and easily develop a web application. 
+##Application Description
 
-  - transpiles scss into css
-  - transpiles es6 and jsx into es5
-  - concatenates all required/imported modules together into one minified file
-  - runs a simple express server that is deployable on heroku
-  
-##Getting started
+Remember that cool game growing up called Etch-A-Sketch? If you don't, you weren't
+living life to the fullest. Either way, I've created a replica of the simple,
+sweet game in React for the user experience. Draw something cool, useless, intricate, 
+or straight up awful. The choice is yours. 
 
-  - clone this repo with `git clone git@github.com:magentanova/tiy-starter-kit.git THE-LOCAL-FOLDER-YOU-WANT-TO-CREATE`
-  - disconnect from my remote repo and point to your own (see [Publishing](#publishing))
-  - `cd` into the local folder
-  - `npm install`
-  - `npm run go`
-  - that's it! visit [http://localhost:3000](http://localhost:3000) to make sure it's working
-  
-##Workflow
-  
-  - you'll *only* write code in the files in the `src/` folder
-  - every time you save in that folder, your code will be read and transpiled into the `dist/` folder. only files in `dist/` will be served up to the browser.
-  - view and test your app at localhost:3000
-  
-##Publishing
+##Application Features
 
-  - disconnect your local repo from this one with `git remote remove origin`
-  - `hub create YOUR-APP-NAME` -- this will simultaneously (1) create you a remote repo with the given name and (2) create a local reference connecting the directory you're in to the remote you just created
-  - add, commit and push per usual
+- Choose your canvas size (between small, medium, and large)
+- Messed up? Hit that descriptive button and have it reset the canvas so you can start over
 
-##Deploying 
+##Application Stack
 
-The easiest thing to do is deploy to heroku. Once you have an account and you've installed the heroku command line tools, simply run: 
- 
-  - `heroku create YOUR-APP-NAME`
-  - `git push origin heroku`
+Using React in combination with Backbone and MongoDB for full-stack app development.
 
-Have fun!
+- React for the user experience/view
+- Backbone to handle the models and collection, in addition to controller
+- MongoDB to handle the data storage and retrieval
+
